@@ -1,0 +1,25 @@
+{
+  "name": "heli",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "prepublish": "tsc",
+    "lint": "tsc src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eseom/heli"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hails": "^0.2.6"
+  },
+  "devDependencies": {
+    "@types/nes": "^6.2.9",
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.12.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.3.3"
+  }
+}
